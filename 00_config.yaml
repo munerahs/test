@@ -1,0 +1,43 @@
+start_date: 2025-10-05      
+tz: Asia/Riyadh
+minute_resolution: 1
+
+date_range:
+  start: 2025-10-05           
+  end:   2025-12-31           
+
+output_partitioning: monthly
+
+random_seed: 20251007
+
+operation:
+  start_hour: 6             
+  hours_per_day: 18          
+
+peaks:                      
+  - {hour: 8,  sigma_hours: 0.75}
+  - {hour: 18, sigma_hours: 0.85}
+
+headway:                    
+  peak_pattern:    [7, 7, 6, 8]     
+  offpeak_pattern: [11, 10, 12, 11]  
+
+capacity:                    
+  carriage_count: 4              
+  cabin_capacity_total: 557         
+  vip_cabin_capacity: 40            
+  vip_share_min: 0.02               
+  vip_share_max: 0.08             
+
+multipliers:
+  weekend: 0.90
+  holiday: 0.80
+  weather: { Sunny: 1.00, Cloudy: 0.95, Dusty: 0.85, Rainy: 0.70 }
+  events:  { Concert: 1.50, Sports: 1.40, Expo: 1.30, Other: 1.10, CityWideBackground: 1.05 }
+  
+
+quality_checks:              
+  crowd_pct_range: [0, 100]
+  occupancy_pct_range: [0, 100]
+  non_negative_counts: true
+

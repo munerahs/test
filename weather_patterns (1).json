@@ -1,0 +1,34 @@
+{
+    "patterns": [
+        {
+            "weather": "clear",
+            "season": "summer",
+            "demand_modifier": 1.0,
+            "description": "Normal clear weather, no effect on demand"
+        },
+        {
+            "weather": "hot",
+            "season": "summer",
+            "demand_modifier": 1.3,
+            "description": "High temperature increases metro use as people avoid walking"
+        },
+        {
+            "weather": "rain",
+            "season": "winter",
+            "demand_modifier": 0.9,
+            "description": "Rainy day slightly reduces demand due to limited outdoor movement"
+        },
+        {
+            "weather": "sandstorm",
+            "season": "spring",
+            "demand_modifier": 0.7,
+            "description": "Severe sandstorm reduces travel and outdoor activities"
+        },
+        {
+            "weather": "holiday_clear",
+            "season": "any",
+            "demand_modifier": 1.5,
+            "description": "Clear weather during holidays boosts passenger demand"
+        }
+    ]
+}
