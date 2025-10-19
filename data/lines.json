@@ -1,229 +1,116 @@
 [
   {
     "line_id": "L1",
-    "line_name": "Blue",
+    "line_name": "Blue line",
     "color": "#0066CC",
     "train_type": "4-car",
     "cars_per_train": 4,
     "carriage_capacity": 138,
     "train_total_capacity": 552,
     "headway_patterns": {
-      "peak_min": [
-        7,
-        7,
-        6,
-        8
-      ],
-      "offpeak_min": [
-        11,
-        10,
-        12,
-        11
-      ]
+      "peak_min": [7, 7, 6, 8],
+      "offpeak_min": [11, 10, 12, 11]
     },
     "peak_windows": [
-      {
-        "start": "06:30",
-        "end": "09:30"
-      },
-      {
-        "start": "16:30",
-        "end": "19:30"
-      }
+      { "start": "06:30", "end": "09:30" },
+      { "start": "16:30", "end": "19:30" }
     ],
     "status": "operational",
-    "applies_to_station_codes": [
-      "KAFD",
-      "STC",
-      "QASR",
-      "MUSEUM"
-    ]
+    "applies_to_station_codes": ["KAFD", "STC", "QASR", "MUSEUM"]
   },
   {
     "line_id": "L2",
-    "line_name": "Red",
+    "line_name": "Red line",
     "color": "#CC0000",
     "train_type": "2-car",
     "cars_per_train": 2,
     "carriage_capacity": 114,
     "train_total_capacity": 228,
     "headway_patterns": {
-      "peak_min": [
-        7,
-        7,
-        6,
-        8
-      ],
-      "offpeak_min": [
-        11,
-        10,
-        12,
-        11
-      ]
+      "peak_min": [7, 7, 6, 8],
+      "offpeak_min": [11, 10, 12, 11]
     },
     "peak_windows": [
-      {
-        "start": "06:30",
-        "end": "09:30"
-      },
-      {
-        "start": "16:30",
-        "end": "19:30"
-      }
+      { "start": "06:30", "end": "09:30" },
+      { "start": "16:30", "end": "19:30" }
     ],
     "status": "operational",
-    "applies_to_station_codes": [
-      "STC"
-    ]
+    "applies_to_station_codes": ["STC"]
   },
   {
     "line_id": "L3",
-    "line_name": "Orange",
+    "line_name": "Orange line",
     "color": "#FF6600",
     "train_type": "2-car",
     "cars_per_train": 2,
     "carriage_capacity": 114,
     "train_total_capacity": 228,
     "headway_patterns": {
-      "peak_min": [
-        7,
-        7,
-        6,
-        8
-      ],
-      "offpeak_min": [
-        11,
-        10,
-        12,
-        11
-      ]
+      "peak_min": [7, 7, 6, 8],
+      "offpeak_min": [11, 10, 12, 11]
     },
     "peak_windows": [
-      {
-        "start": "06:30",
-        "end": "09:30"
-      },
-      {
-        "start": "16:30",
-        "end": "19:30"
-      }
+      { "start": "06:30", "end": "09:30" },
+      { "start": "16:30", "end": "19:30" }
     ],
     "status": "operational",
-    "applies_to_station_codes": [
-      "QASR",
-      "IND1"
-    ]
+    "applies_to_station_codes": ["QASR", "IND1"]
   },
   {
     "line_id": "L4",
-    "line_name": "Yellow",
+    "line_name": "Yellow line",
     "color": "#FFD400",
     "train_type": "2-car",
     "cars_per_train": 2,
     "carriage_capacity": 114,
     "train_total_capacity": 228,
     "headway_patterns": {
-      "peak_min": [
-        7,
-        7,
-        6,
-        8
-      ],
-      "offpeak_min": [
-        11,
-        10,
-        12,
-        11
-      ]
+      "peak_min": [7, 7, 6, 8],
+      "offpeak_min": [11, 10, 12, 11]
     },
     "peak_windows": [
-      {
-        "start": "06:30",
-        "end": "09:30"
-      },
-      {
-        "start": "16:30",
-        "end": "19:30"
-      }
+      { "start": "06:30", "end": "09:30" },
+      { "start": "16:30", "end": "19:30" }
     ],
     "status": "operational",
-    "applies_to_station_codes": [
-      "KAFD",
-      "AIRP_T12"
-    ]
+    "applies_to_station_codes": ["KAFD", "AIRP_T12"]
   },
   {
     "line_id": "L5",
-    "line_name": "Green",
+    "line_name": "Green line",
     "color": "#43B649",
     "train_type": "2-car",
     "cars_per_train": 2,
     "carriage_capacity": 114,
     "train_total_capacity": 228,
     "headway_patterns": {
-      "peak_min": [
-        7,
-        7,
-        6,
-        8
-      ],
-      "offpeak_min": [
-        11,
-        10,
-        12,
-        11
-      ]
+      "peak_min": [7, 7, 6, 8],
+      "offpeak_min": [11, 10, 12, 11]
     },
     "peak_windows": [
-      {
-        "start": "06:30",
-        "end": "09:30"
-      },
-      {
-        "start": "16:30",
-        "end": "19:30"
-      }
+      { "start": "06:30", "end": "09:30" },
+      { "start": "16:30", "end": "19:30" }
     ],
     "status": "operational",
-    "applies_to_station_codes": [
-      "MUSEUM"
-    ]
+    "applies_to_station_codes": ["MUSEUM"]
   },
   {
     "line_id": "L6",
-    "line_name": "Purple",
+    "line_name": "Purple line",
     "color": "#984C9D",
     "train_type": "2-car",
     "cars_per_train": 2,
     "carriage_capacity": 114,
     "train_total_capacity": 228,
     "headway_patterns": {
-      "peak_min": [
-        7,
-        7,
-        6,
-        8
-      ],
-      "offpeak_min": [
-        11,
-        10,
-        12,
-        11
-      ]
+      "peak_min": [7, 7, 6, 8],
+      "offpeak_min": [11, 10, 12, 11]
     },
     "peak_windows": [
-      {
-        "start": "06:30",
-        "end": "09:30"
-      },
-      {
-        "start": "16:30",
-        "end": "19:30"
-      }
+      { "start": "06:30", "end": "09:30" },
+      { "start": "16:30", "end": "19:30" }
     ],
     "status": "operational",
-    "applies_to_station_codes": [
-      "KAFD"
-    ]
+    "applies_to_station_codes": ["KAFD"]
   }
 ]
