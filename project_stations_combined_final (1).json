@@ -1,0 +1,149 @@
+[
+  {
+    "station_name": "KAFD",
+    "station_id": "1A1/4A1",
+    "station_capacity_peak": 12096,
+    "lines": [
+      {
+        "line_id": "Line1",
+        "line_name": "Blue line",
+        "line_code": "1A1/4A1",
+        "train_type": "4-car",
+        "cars_per_train": 4,
+        "carriage_capacity": 138,
+        "train_capacity": 552
+      },
+      {
+        "line_id": "Line4",
+        "line_name": "Yellow line",
+        "line_code": "1A1/4A1",
+        "train_type": "2-car",
+        "cars_per_train": 2,
+        "carriage_capacity": 114,
+        "train_capacity": 228
+      },
+      {
+        "line_id": "Line6",
+        "line_name": "Purple line",
+        "line_code": "1A1/4A1",
+        "train_type": "2-car",
+        "cars_per_train": 2,
+        "carriage_capacity": 114,
+        "train_capacity": 228
+      }
+    ],
+    "station_occupancy_capacity": 5000
+  },
+  {
+    "station_name": "STC Station",
+    "station_id": "1B3/2B2",
+    "station_capacity_peak": 9360,
+    "lines": [
+      {
+        "line_id": "Line1",
+        "line_name": "Blue line",
+        "line_code": "1B3/2B2",
+        "train_type": "4-car",
+        "cars_per_train": 4,
+        "carriage_capacity": 138,
+        "train_capacity": 552
+      },
+      {
+        "line_id": "Line2",
+        "line_name": "Red line",
+        "line_code": "1B3/2B2",
+        "train_type": "2-car",
+        "cars_per_train": 2,
+        "carriage_capacity": 114,
+        "train_capacity": 228
+      }
+    ],
+    "station_occupancy_capacity": 3500
+  },
+  {
+    "station_name": "Qasr Al-Hokm Station",
+    "station_id": "1F7/3E2",
+    "station_capacity_peak": 9360,
+    "lines": [
+      {
+        "line_id": "Line1",
+        "line_name": "Blue line",
+        "line_code": "1F7/3E2",
+        "train_type": "4-car",
+        "cars_per_train": 4,
+        "carriage_capacity": 138,
+        "train_capacity": 552
+      },
+      {
+        "line_id": "Line3",
+        "line_name": "Orange line",
+        "line_code": "1F7/3E2",
+        "train_type": "2-car",
+        "cars_per_train": 2,
+        "carriage_capacity": 114,
+        "train_capacity": 228
+      }
+    ],
+    "station_occupancy_capacity": 3000
+  },
+  {
+    "station_name": "National Museum Station",
+    "station_id": "1F4/5A1",
+    "station_capacity_peak": 9360,
+    "lines": [
+      {
+        "line_id": "Line1",
+        "line_name": "Blue line",
+        "line_code": "1F4/5A1",
+        "train_type": "4-car",
+        "cars_per_train": 4,
+        "carriage_capacity": 138,
+        "train_capacity": 552
+      },
+      {
+        "line_id": "Line5",
+        "line_name": "Green line",
+        "line_code": "1F4/5A1",
+        "train_type": "2-car",
+        "cars_per_train": 2,
+        "carriage_capacity": 114,
+        "train_capacity": 228
+      }
+    ],
+    "station_occupancy_capacity": 2500
+  },
+  {
+    "station_name": "Airport T1-2 Station",
+    "station_id": "4G3",
+    "station_capacity_peak": 2736,
+    "lines": [
+      {
+        "line_id": "Line4",
+        "line_name": "Yellow line",
+        "line_code": "4G3",
+        "train_type": "2-car",
+        "cars_per_train": 2,
+        "carriage_capacity": 114,
+        "train_capacity": 228
+      }
+    ],
+    "station_occupancy_capacity": 1500
+  },
+  {
+    "station_name": "First Industrial City",
+    "station_id": "3E6",
+    "station_capacity_peak": 2736,
+    "lines": [
+      {
+        "line_code": "3E6",
+        "line_id": "Line3",
+        "line_name": "Orange line",
+        "train_type": "2-car",
+        "cars_per_train": 2,
+        "carriage_capacity": 114,
+        "train_capacity": 228
+      }
+    ],
+    "station_occupancy_capacity": 2300
+  }
+]

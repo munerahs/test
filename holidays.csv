@@ -1,0 +1,6 @@
+holiday_id,name,date,demand_modifier,description
+H1,Eid Al-Fitr,2025-03-31,2.0,Major holiday with very high travel demand
+H2,Eid Al-Adha,2025-06-06,2.2,Pilgrimage season increases demand significantly
+H3,Saudi National Day,2025-09-23,2.0,National holiday doubles passenger flow in city centers
+H4,Founding Day,2025-02-22,1.7,Cultural celebrations increase downtown activity
+H5,End of Year Holiday,2025-12-31,1.8,New Year period increases travel and leisure trips
