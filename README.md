@@ -84,7 +84,7 @@ Masar supports the goals of **Saudi Vision 2030** by enabling smarter, safer, an
 ## Live Deployment
 
 - Staff Dashboard: https://masarapp-b9521.web.app/
-- Simulation API: https://masar-sim.onrender.com/
+- Backend API Docs: https://masar-sim.onrender.com/docs
 
 ---
 
@@ -120,6 +120,27 @@ The forecasting module uses an XGBoost model to predict station crowd levels 30 
 - Utilization ratio
 - Predicted crowd level
 - Crowd level code
+
+---
+
+## API Endpoints
+
+The backend provides several endpoints for live snapshots and 30-minute forecasting.
+
+```text
+POST /predict_30min
+GET  /predict_30min_live/{station_code}
+GET  /health
+GET  /snapshot/all
+GET  /snapshot/{station_id}
+GET  /backfill_last_2h
+```
+
+API documentation is available through Swagger UI:
+
+```text
+https://masar-sim.onrender.com/docs
+```
 
 ---
 
